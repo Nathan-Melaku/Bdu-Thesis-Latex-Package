@@ -43,7 +43,7 @@ Then bduMasters as a documentclass.
 #+end_src
 
 * Usage
-xelatex must be used to compile your project for this package to work properly. This is due to the usage of =Times New Roman= Font.
+xelatex must be used to compile your project for this package to work properly. This is due to the usage of =Times New Roman= Font. Also the font must exist on you system.
 The package introduces the following commands:
 
 1. *\advisor{name of advisor}{title of advisor}:* used for defining the name and title of advisor.
