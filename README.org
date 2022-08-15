@@ -46,7 +46,7 @@ A simple Makefile have been prepared. In order for it to work you need a file hi
   +---main.tex
 #+end_src
 
-Use the [[https://ctan.org/pkg/subfiles?lang=en][subfiles]] package to insert the your chapters into the main file. Then set main.tex as
+Use the [[https://ctan.org/pkg/subfiles?lang=en][subfiles]] package to insert your chapters into the main file. Then set main.tex as
 a master file for compilation in your editor. For use auctex mode and add the following at the end of each chapter tex file.
 
 #+begin_src latex
