@@ -1,13 +1,13 @@
 #+OPTIONS: toc:2 
 * Bdu-Thesis-Latex-Package
-A Latex Package for writing a masters thesis according to Bahirdar Bahir Dar Institute of Technology guideline.
+A Latex Package for writing a masters thesis according to Bahir Dar Institute of Technology guideline.
 It has the following features:
 - sets the typing according to the recommended format. This includes margins, font, linespacing, etc...
 - has all the neccessary front matter. cover page, title page, declaration page, approval sheet, acknowledgment.
 - enforces the appropriate citation format.
 
 * Installation
-For linux, mac or using wsp on windows.
+For linux, mac or using wsl on windows.
 
 #+begin_src shell
   git clone https://github.com/Nathan-Melaku/Bdu-Thesis-Latex-Package.git
