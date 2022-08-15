@@ -4,7 +4,7 @@
 \LoadClass[12pt, oneside]{report}
 % make links clickable with no color
 \RequirePackage{hyperref}
-\hypersetup{colorlinks = false}
+\hypersetup{colorlinks = false, hidelinks = true}
 % date should be with the following format Aug 11 2022
 \RequirePackage{datetime}
 \newdateformat{monthyeardate}{\monthname[\THEMONTH], \THEYEAR}
