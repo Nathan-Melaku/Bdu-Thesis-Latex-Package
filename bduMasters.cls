@@ -37,7 +37,7 @@
 
 % Title must be 14pt and subtitle must be 12pt.
 \RequirePackage{titlesec}
-\titleformat{\chapter}{\large\bfseries}{Chapter \ \thechapter}{14pt}{}
+\titleformat{\chapter}[display]{\large\bfseries}{CHAPTER \ \thechapter}{1ex}{\vspace{1ex}}[\vspace{-0.5ex}]
 \titleformat{\section}{\normalsize\bfseries}{\thesection}{12pt}{}
 \titleformat{\subsection}{\normalsize\bfseries}{\thesection}{12pt}{}
 \titleformat{\subsubsection}{\normalsize\bfseries}{\thesection}{12pt}{}
