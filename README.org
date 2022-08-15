@@ -1,3 +1,4 @@
+#+OPTIONS: toc:2 
 * Bdu-Thesis-Latex-Package
 A Latex Package for writing a masters thesis according to Bahirdar Bahir Dar Institute of Technology guideline.
 It has the following features:
