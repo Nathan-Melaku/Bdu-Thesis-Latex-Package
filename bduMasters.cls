@@ -55,6 +55,8 @@
 
 % Acronym for the list of abbreviations.
 \RequirePackage[printonlyused, withpage]{acronym}
+% justify without hyphenation
+\sloppy
 
 % command for advisor name
 \newcommand{\advisor}[2]{
