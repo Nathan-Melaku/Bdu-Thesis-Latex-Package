@@ -1,0 +1,18 @@
+* Bdu-Thesis-Latex-Package
+A Latex Package for writing a masters thesis according to Bahirdar University guideline.
+It has the following features:
+- sets the typing according to the recommended format. This includes margins, font, linespacing, etc...
+- customized insertion of figures and illustration according to the recommended format.
+- has all the neccessary front matter. cover page, title page, declaration page, approval sheet, acknowledgment.
+
+* Installation
+For linux, mac or using wsp on windows.
+
+#+begin_src shell
+  git clone https://github.com/Nathan-Melaku/Bdu-Thesis-Latex-Package.git
+#+end_src
+
+or download and unzip this repository. Then the files in this repository to your thesis directory.
+
+* Usage
+xelatex must be used to compile your project for this package to work properly. This is due to the usage of =Times New Roman= Font. 
