@@ -21,7 +21,7 @@ Then bduMasters as a documentclass.
 
   % put the packages you need
 
-  \adnnvisor{awesome advisor}{PHD}
+  \advisor{awesome advisor}{PHD}
   \faculty{Electrical and Computer Engineering}
   \program{Computer Engineering}
   \masterstype{Msc Thesis}
