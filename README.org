@@ -1,8 +1,9 @@
 * Bdu-Thesis-Latex-Package
-A Latex Package for writing a masters thesis according to Bahirdar University guideline.
+A Latex Package for writing a masters thesis according to Bahir Dar Institute of Technology guideline.
 It has the following features:
 - sets the typing according to the recommended format. This includes margins, font, linespacing, etc...
 - has all the neccessary front matter. cover page, title page, declaration page, approval sheet, acknowledgment.
+- enforces the appropriate citation format.
 
 * Installation
 For linux, mac or using wsp on windows.
@@ -19,13 +20,14 @@ The package introduces the following commands:
 
 1. *\advisor{name of advisor}{title of advisor}:* used for defining the name and title of advisor.
 2. *\coadvisor{name of coadvisor}{title of coadvisor}:* used for defining the name and title of coadvisor.
-   If it doesn't apply you can ignore this.
+   If it doesn't apply for you can ignore this.
 3. *\faculty{name of faculty}:* used for defining the name of the faculty. eg. Electrical and Computer Engineering.
 4. *\program{name of the program}:* used for defining the name of the program. eg. Computer Engineering.
 5. *\masterstype{Type of Masters}:* used for defining the type of masters there are two types Msc thesis or MEng Project.
 6. *\acknowledgment{text}:* used for defining the acknowledgment.
 7. *\abstract{text}:* used for defining the abstract.
-8. *\makepreamble:* used for printing the preamble necessary according to the guideline.
+8. *\makepreamble:* used for printing the preamble necessary according to the guideline. This will handle everything from
+   coverpage to abstract. After this command set the page numbering style and add your chapters. That is all.
 
 A simple Makefile have been prepared. In order for it to work you need a file hierarchy according to the following schema.
 #+begin_src ditaa
@@ -55,3 +57,5 @@ a master file for compilation in your editor. For use auctex mode and add the fo
 %%% TeX-master: "../main"
 %%% End:
 #+end_src
+
+An example file can be found in this repository. Check out [[file:main.tex][main.tex]] and the associated chapters in the [[file:Chapters/][Chapters]] directory.
