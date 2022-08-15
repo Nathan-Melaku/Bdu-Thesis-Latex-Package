@@ -24,6 +24,8 @@
 \fancyhf{}
 \fancyhead[R]{\rightmark}
 \fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
 
 % hyphenation is not allowed according to the guideline, This only works for single language documents.
 % If multiple language is used in the document use a different method to disable hyphenation.
@@ -50,6 +52,9 @@
 
 % An Excellent way to work with multiple tex files for each chapter.
 \RequirePackage{subfiles}
+
+% Acronym for the list of abbreviations.
+\RequirePackage[printonlyused, withpage]{acronym}
 
 % command for advisor name
 \newcommand{\advisor}[2]{
@@ -315,6 +320,7 @@ have been duly acknowledged.
     \makeacknowledgment
     \tocontents
     \declaration
+    \include{acronym}
     \lotables
     \lofigures
     \makeabstract

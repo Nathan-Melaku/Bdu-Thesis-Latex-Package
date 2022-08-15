@@ -20,7 +20,7 @@ Then bduMasters as a documentclass.
 
   % put the packages you need
 
-  \advisor{awesome advisor}{PHD}
+  \adnnvisor{awesome advisor}{PHD}
   \faculty{Electrical and Computer Engineering}
   \program{Computer Engineering}
   \masterstype{Msc Thesis}
@@ -73,6 +73,8 @@ A simple Makefile have been prepared. In order for it to work you need a file hi
   +---references.bib
   |
   +---main.tex
+  |
+  +---acronym.tex
 #+end_src
 
 Use the [[https://ctan.org/pkg/subfiles?lang=en][subfiles]] package to insert your chapters into the main file. Then set main.tex as
@@ -85,7 +87,19 @@ a master file for compilation in your editor. For use auctex mode and add the fo
 %%% End:
 #+end_src
 
-An example file can be found in this repository. Check out [[file:main.tex][main.tex]] and the associated chapters in the [[file:Chapters/][Chapters]] directory.
+Define abbreviations in acronym.tex file. A sample is provided.
+
+#+begin_src latex
+  \acro{GAN}{Generative Adversarial Networks}
+#+end_src
+
+Then use it in the document. Do not use abbreviations in Abstract. A sample usage is as follows.
+
+#+begin_src latex
+  a sample usage \ac{GAN}.
+#+end_src
+
+An example file can be found in this repository. Check out [[file:main.tex][main.tex]], [[file:acronym.tex][acronym.tex]] and the associated chapters in the [[file:Chapters/][Chapters]] directory.
 
 * LICENSE
 
