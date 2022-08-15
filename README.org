@@ -13,6 +13,33 @@ For linux, mac or using wsp on windows.
 #+end_src
 
 or download and unzip this repository. Then copy the files in this repository to your thesis directory.
+Then bduMasters as a documentclass.
+
+#+begin_src latex
+  \documentclass{bduMasters}
+
+  % put the packages you need
+
+  \advisor{awesome advisor}{PHD}
+  \faculty{Electrical and Computer Engineering}
+  \program{Computer Engineering}
+  \masterstype{Msc Thesis}
+  \title{My awesome title}
+  \author{My awesome name}
+  \date{\today}
+
+  \acknowledgment{My awesome acknowledgment}
+  \abstract{My awesome abstract}
+
+  \begin{document}
+  \makepreamble
+  \pagenumbering{arabic}
+
+  % put your chapters
+  \subfile{Chapters/introduction}
+  ...
+  \end{document}
+#+end_src
 
 * Usage
 xelatex must be used to compile your project for this package to work properly. This is due to the usage of =Times New Roman= Font.
